@@ -4,7 +4,7 @@ test_list3 = [1, 2, 3, 4, 5]
 test_list4 = [1]
 test_list5 = []
 
-test_list = test_list5
+test_list = test_list1
 
 length = len(test_list)
 half_length = int(length / 2) if length % 2 == 0 else int(length / 2) + 1
