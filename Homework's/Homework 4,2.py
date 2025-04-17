@@ -5,8 +5,11 @@ test_list4 = []
 
 test_list = test_list1
 x = 0
-for i in range(0, len(test_list), 2):
-    x += test_list[i]
+for i in test_list[::2]:
+    x += i
+
+# for i in range(0, len(test_list), 2):
+#     x += test_list[i]
 
 result = 0
 if bool(test_list):
