@@ -1,23 +1,8 @@
-# _ => True
-# __ => False
-# ___ => False
-# x => True
-# get_value => True
-# get value => False
-# 3m => False
-# m3 => True
-# assert => False
-# assert_exception => True
-# get!value => False
-# some_super_puper_value => True
-# Get_value => False
-# get_Value => False
-# getValue => False
 from keyword import kwlist
 elements = r""" !"#$%&'()*+,-./:;<=>?@[\]^`{|}~ABCDEFGHIJKLMNOPQRSTUVWXYZ"""
 keywords = kwlist
 digits = "0123456789"
-name = "_"
+name = input("Enter name: ")
 result = True
 
 while bool(name):
