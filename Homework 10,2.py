@@ -5,7 +5,6 @@ def first_word(text: str) -> str:
         text = text.replace(i, " ")
     text = text.strip()
     text = text.split(" ")
-    print(text)
     return text[0]
 
 assert first_word("Hello world") == "Hello", 'Test1'
