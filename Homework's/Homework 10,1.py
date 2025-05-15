@@ -1,7 +1,7 @@
 def pow(x):
     return x ** 2
 
-def some_gen(begin, end, func):
+def some_gen(begin: int, end: int, func: callable) -> int:
     """
      begin: перший елемент послідовності
      end: кількість елементів у послідовності

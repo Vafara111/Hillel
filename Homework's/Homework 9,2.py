@@ -1,10 +1,7 @@
-def difference(*args: float) -> float:
-    numbers = []
-    for arg in args:
-        numbers.append(arg)
-    if numbers:
-        minnumber = min(numbers)
-        maxnumber = max(numbers)
+def difference(*args: int | float) -> int:
+    if args:
+        minnumber = min(args)
+        maxnumber = max(args)
         return round(maxnumber - minnumber, 2)
     return 0
 assert difference(1, 2, 3) == 2, 'Test1'
