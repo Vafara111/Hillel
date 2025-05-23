@@ -23,4 +23,4 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
         result.write(new_html)
 
 
-delete_html_tags("draft.html")
+delete_html_tags("../draft.html")
