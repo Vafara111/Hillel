@@ -55,7 +55,6 @@ print(gr)
 assert str(gr.find_student('Jobs')) == str(st1), 'Test1'
 assert gr.find_student('Jobs2') is None, 'Test2'
 assert isinstance(gr.find_student('Jobs'), Student) is True, 'Метод поиска должен возвращать экземпляр'
-
 gr.delete_student('Taylor')
 print(gr)  # Only one student
 
